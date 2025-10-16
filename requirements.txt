@@ -1,0 +1,2 @@
+robynpy==0.3.6
+git+https://github.com/pymc-labs/pymc-marketing.git

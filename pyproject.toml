@@ -1,0 +1,29 @@
+[project]
+name = "market-mix-modeling"
+version = "0.0.1"
+authors = [
+  { name="Daniel Rodrigues", email="danielrod147@gmail.com" },
+]
+
+description = "Exploration of differents methods/tools for marketing mix modeling with python"
+readme = "README.md"
+requires-python = ">=3.8"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache License",
+]
+
+dependencies = [
+    "robynpy==0.3.6"
+    "git+https://github.com/pymc-labs/pymc-marketing.git"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.setuptools.package-data]
+"*" = ["*.csv"]
+
+[project.urls]
+Homepage = "https://github.com/daniel64bit/market-mix-modeling"
+Issues = "https://github.com/daniel64bit/market-mix-modeling/issues"
