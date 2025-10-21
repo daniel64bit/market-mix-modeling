@@ -7,7 +7,7 @@ authors = [
 
 description = "Exploration of differents methods/tools for marketing mix modeling with python"
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.13"
 
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -16,7 +16,11 @@ classifiers = [
 
 dependencies = [
     "robynpy==0.3.6"
-    "git+https://github.com/pymc-labs/pymc-marketing.git"
+    "pymc-marketing"
+    "numpyro"
+    "tensorflow"
+    "tensorflow_probability"
+    "jax<0.7.0"
 ]
 
 [tool.setuptools.packages.find]

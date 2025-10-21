@@ -1,5 +1,6 @@
-git+https://github.com/pymc-labs/pymc-marketing.git
+# git+https://github.com/pymc-labs/pymc-marketing.git
+pymc-marketing
 numpyro
 tensorflow
 tensorflow_probability
-jax
+jax < 0.7.0
